@@ -1,0 +1,27 @@
+{% include 'base.html' %}
+<h1 style="color: blue">djfenmgikldfjmglferjgj</h1>
+<input id="red">
+<input id="green">
+<input id="blue">
+<input type="button" id="button" value="установить цвет" class="btn btn-primary">
+<div class="ball" id="ball">
+</div>
+<script>
+    button.onclick=()=>{
+        let a=confirm('t ghzxhxhxhxh')
+        if (a){
+             document.body.style.background=`rgb(${red.value},${green.value},${blue.value})`
+        button.insertAdjacentHTML("beforebegin", `<h1>rgb(${red.value},${green.value},${blue.value})</h1>`)
+        }
+
+    }
+    let i =0
+let int=setInterval(()=>{
+    i++
+    ball.style.left=`${i}px`
+    ball.style.top=`${i}px`
+    if(i==200){clearInterval(int)}
+},10)
+
+
+</script>
